@@ -1,0 +1,334 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Laxman",
+      "email": "laxman@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "2",
+      "name": "John",
+      "email": "john@gmail.com",
+      "password": "john123"
+    },
+    {
+      "id": "3",
+      "name": "Priya",
+      "email": "priya@gmail.com",
+      "password": "priya123"
+    },
+    {
+      "name": "Test User",
+      "email": "test@gmail.com",
+      "password": "test123",
+      "id": "mf-i4ZsAzKg"
+    },
+    {
+      "name": "rajini",
+      "email": "rajini@gmail.com",
+      "password": "123456",
+      "id": "t97PaQ6e2pI"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Frontend"
+    },
+    {
+      "id": "2",
+      "name": "Backend"
+    },
+    {
+      "id": "3",
+      "name": "DSA"
+    },
+    {
+      "id": "4",
+      "name": "HR"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "category": "Frontend",
+      "question": "What is HTML?",
+      "answer": "HTML (HyperText Markup Language) is the standard markup language used to create the structure and content of web pages.",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "2",
+      "category": "Frontend",
+      "question": "What is CSS?",
+      "answer": "CSS (Cascading Style Sheets) is a style sheet language used for describing the presentation, formatting, and layout of a document written in HTML.",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "3",
+      "category": "Frontend",
+      "question": "What is JavaScript?",
+      "answer": "JavaScript is a high-level, dynamic programming language primarily used to add interactivity, complex features, and dynamic content to web pages.",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "4",
+      "category": "Frontend",
+      "question": "What is the difference between let, var and const?",
+      "answer": "'var' is function-scoped and hoisted. 'let' is block-scoped and can be reassigned. 'const' is block-scoped and its reference cannot be reassigned after initialization.",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "5",
+      "category": "Frontend",
+      "question": "What is the DOM?",
+      "answer": "The DOM (Document Object Model) is a programming interface that represents the web page as a tree of objects, allowing scripts to update the document's content, structure, and style.",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "6",
+      "category": "Frontend",
+      "question": "Explain event bubbling.",
+      "answer": "Event bubbling is a phase in the DOM event flow where an event triggered on a deeply nested element propagates upward (bubbles) through its ancestors in the DOM tree until it reaches the root.",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "7",
+      "category": "Frontend",
+      "question": "What are closures in JavaScript?",
+      "answer": "A closure is a feature where an inner function retains access to the variables of its outer (enclosing) function, even after the outer function has finished executing.",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "8",
+      "category": "Frontend",
+      "question": "What is the Virtual DOM?",
+      "answer": "The Virtual DOM is a lightweight, in-memory representation of the actual DOM. Libraries like React use it to efficiently diff changes and update only the necessary parts of the real DOM.",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "9",
+      "category": "Frontend",
+      "question": "What are React Hooks?",
+      "answer": "React Hooks are functions that let developers use state and lifecycle features within functional components, eliminating the need to write class components.",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "10",
+      "category": "Frontend",
+      "question": "What is React Router?",
+      "answer": "React Router is a standard library for routing in React. It enables navigation between different views or components in a single-page application while keeping the UI in sync with the URL.",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "11",
+      "category": "Backend",
+      "question": "What is Flask?",
+      "answer": "Flask is a lightweight and extensible WSGI web application framework written in Python, designed to make getting started quick and easy with the ability to scale up to complex applications.",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "12",
+      "category": "Backend",
+      "question": "Difference between GET and POST?",
+      "answer": "GET requests data from a server and appends parameters to the URL. POST submits data to the server to create or update a resource, sending the data in the request body.",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "13",
+      "category": "Backend",
+      "question": "What is a REST API?",
+      "answer": "A REST API is an application programming interface that conforms to the constraints of REST architectural style, typically using HTTP requests to GET, PUT, POST, and DELETE data.",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "14",
+      "category": "Backend",
+      "question": "What is JSON?",
+      "answer": "JSON (JavaScript Object Notation) is a lightweight, text-based format for storing and transporting data, commonly used for sending data from a server to a web client.",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "15",
+      "category": "Backend",
+      "question": "What is Middleware?",
+      "answer": "Middleware consists of functions that execute during the request-response cycle. They have access to the request and response objects and can modify them or terminate the request before it reaches the final route handler.",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "16",
+      "category": "Backend",
+      "question": "What is Authentication?",
+      "answer": "Authentication is the process of verifying the identity of a user, device, or system (e.g., verifying a username and password).",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "17",
+      "category": "Backend",
+      "question": "What is Authorization?",
+      "answer": "Authorization is the process of determining what actions or resources an authenticated user is permitted to access.",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "18",
+      "category": "Backend",
+      "question": "What is Database Connection Pooling?",
+      "answer": "Connection pooling is a cache of database connections maintained in memory so they can be reused for future requests, drastically improving application performance by avoiding connection overhead.",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "19",
+      "category": "Backend",
+      "question": "Difference between PUT and PATCH?",
+      "answer": "PUT is used to replace an entire resource with the provided payload. PATCH is used to apply partial modifications to an existing resource.",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "20",
+      "category": "Backend",
+      "question": "What is CORS?",
+      "answer": "CORS (Cross-Origin Resource Sharing) is a security mechanism implemented by browsers that restricts web applications running at one origin from requesting resources from a different origin.",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "21",
+      "category": "DSA",
+      "question": "What is a Linked List?",
+      "answer": "A linked list is a linear data structure where elements are not stored in contiguous memory. Instead, each element (node) points to the next, consisting of data and a reference to the next node.",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "22",
+      "category": "DSA",
+      "question": "What is a Stack?",
+      "answer": "A stack is a linear data structure that follows the Last-In-First-Out (LIFO) principle, where elements are added and removed from only one end, called the top.",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "23",
+      "category": "DSA",
+      "question": "What is a Queue?",
+      "answer": "A queue is a linear data structure that follows the First-In-First-Out (FIFO) principle, where elements are added at the rear and removed from the front.",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "24",
+      "category": "DSA",
+      "question": "What is a Tree?",
+      "answer": "A tree is a hierarchical data structure consisting of nodes connected by edges. It features a root node and sub-nodes, representing parent-child relationships.",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "25",
+      "category": "DSA",
+      "question": "What is Binary Search?",
+      "answer": "Binary search is an efficient algorithm for finding an item in a sorted array by repeatedly dividing the search interval in half until the target value is found.",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "26",
+      "category": "DSA",
+      "question": "What is a Hash Table?",
+      "answer": "A hash table is a data structure that implements an associative array, storing key-value pairs. It uses a hash function to compute an index into an array of buckets, from which the desired value can be found.",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "27",
+      "category": "DSA",
+      "question": "What is Recursion?",
+      "answer": "Recursion is a programming technique where a function calls itself to solve smaller instances of the same problem, ending when it reaches a predefined base case.",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "28",
+      "category": "DSA",
+      "question": "What is Time Complexity?",
+      "answer": "Time complexity is a computational concept that describes the amount of time an algorithm takes to run as a function of the length of the input, often expressed using Big O notation.",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "29",
+      "category": "DSA",
+      "question": "Difference between Array and Linked List?",
+      "answer": "Arrays use contiguous memory, have fixed sizes, and offer O(1) random access, but insertions/deletions are slow. Linked lists use dynamic memory, offer fast O(1) insertions/deletions, but require O(N) sequential access.",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "30",
+      "category": "DSA",
+      "question": "What is a Graph?",
+      "answer": "A graph is a non-linear data structure consisting of a set of vertices (nodes) and edges that connect pairs of vertices, used to represent networks like social connections or city maps.",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "31",
+      "category": "HR",
+      "question": "Tell me about yourself.",
+      "answer": "Highlight your educational background, summarize your relevant professional experience or projects, outline key skills, and express what you are aiming to achieve in this specific role.",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "32",
+      "category": "HR",
+      "question": "Why should we hire you?",
+      "answer": "Align your specific skills, experiences, and track record of delivering results with the requirements of the job description, emphasizing your enthusiasm and cultural fit.",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "33",
+      "category": "HR",
+      "question": "Why do you want to join our company?",
+      "answer": "Mention specific details you respect about the company—like its mission, recent projects, tech stack, or workplace culture—and explain how they align with your own career goals.",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "34",
+      "category": "HR",
+      "question": "What are your strengths?",
+      "answer": "Focus on strengths directly relevant to the role (e.g., problem-solving, quick learning, specific technical stacks) and briefly cite a situation where you successfully applied them.",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "35",
+      "category": "HR",
+      "question": "What are your weaknesses?",
+      "answer": "State a genuine, non-critical weakness (e.g., public speaking, over-committing to tasks) and emphasize the proactive steps you are currently taking to improve on it.",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "36",
+      "category": "HR",
+      "question": "Where do you see yourself in 5 years?",
+      "answer": "Express a desire to deepen your expertise in your field, take on leadership or mentorship responsibilities, and contribute significantly to the long-term success of the company.",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "37",
+      "category": "HR",
+      "question": "Tell me about a challenge you faced.",
+      "answer": "Use the STAR method (Situation, Task, Action, Result) to clearly explain a specific problem, the logical actions you took to resolve it, and the positive outcome that resulted.",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "38",
+      "category": "HR",
+      "question": "How do you handle criticism?",
+      "answer": "Explain that you view constructive feedback as a valuable tool for growth. You listen objectively, ask clarifying questions, and actively apply the feedback to improve your work.",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "39",
+      "category": "HR",
+      "question": "Describe your teamwork experience.",
+      "answer": "Highlight your ability to communicate effectively, support colleagues, divide tasks efficiently, and navigate diverse viewpoints to achieve a shared goal within a project.",
+      "difficulty": "Medium"
+    },
+    {
+      "id": "40",
+      "category": "HR",
+      "question": "Why should we hire a fresher?",
+      "answer": "Emphasize your adaptability, eagerness to learn, fresh perspective, up-to-date academic knowledge, and long-term potential to be molded seamlessly into the company's workflows.",
+      "difficulty": "Medium"
+    }
+  ]
+}
