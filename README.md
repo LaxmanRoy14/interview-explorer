@@ -103,15 +103,25 @@ src
 
 ## Screenshots
 
-Add screenshots here after deployment.
-
 ### Home Page
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1fb40417-928d-485e-9a07-e027f1c48f26" />
+
 
 ### Categories Page
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8685d205-cbec-40ad-8624-5bd24e854cda" />
+
+
 ### Question Details
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1d1f811b-e522-4497-a3af-8251200be20a" />
+
+
 ### Dark Mode
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c2eb9c54-3f9a-4eba-85f1-ea7db41d7731" />
+
 
 ---
 
