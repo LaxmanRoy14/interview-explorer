@@ -84,19 +84,22 @@ Backend API: https://interview-explorer-backend.onrender.com
 
 ---
 
-## Project Structure
+## 📁 Folder Structure
 
 ```text
-src
+src/
 │
-├── assets
-├── components
-├── pages
-├── routes
-├── services
-├── features
-├── app
-└── data
+├── app/                # Redux store configuration
+├── assets/             # Images and static assets
+├── components/         # Reusable UI components
+├── features/           # Redux slices
+├── pages/              # Application pages
+├── routes/             # React Router configuration
+├── services/           # API and Axios setup
+│
+├── App.jsx             # Main application component
+├── main.jsx            # Application entry point
+└── index.css           # Global styles
 ```
 
 ---
